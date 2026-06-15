@@ -2,7 +2,7 @@ const https = require('https');
 const http = require('http');
 
 module.exports = async (req, res) => {
-  const target = 'http://143.198.88.152:10005';
+  const target = 'http://143.198.88.152:10007';
   const url = target + req.url;
 
   const client = url.startsWith('https') ? https : http;
